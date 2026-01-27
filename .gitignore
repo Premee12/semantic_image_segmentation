@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Data files (too large for git)
+recodai-luc-scientific-image-forgery-detection/
+data/
+ground_truth/
+predictions/
+*.keras
+*.h5
+*.hdf5
+
+# Model weights and large files
+outputs_and_models/*.keras
+outputs_and_models/*.h5
+outputs_and_models/models/
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# Results that can be regenerated
+outputs_and_models/train_log*.csv
+
+# Keep only result summaries
+# Results folder is included but can be compressed

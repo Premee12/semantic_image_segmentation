@@ -1,0 +1,14 @@
+model,description,category,oF1,optimal_threshold,num_images
+deeplabv3_data75,DeepLabV3+ (75%),DeepLabV3+ Data,0.21688500727802038,0.5,942
+deeplabv3_resnet101,DeepLabV3+ ResNet-101,DeepLabV3+ Backbone,0.18247985443202494,0.5,942
+deeplabv3_data100,DeepLabV3+ (100%),DeepLabV3+ Data,0.17726293103448276,0.5,942
+deeplabv3_resnet50,DeepLabV3+ ResNet-50,DeepLabV3+ Backbone,0.16444232602478548,0.5,942
+deeplabv3_data50,DeepLabV3+ (50%),DeepLabV3+ Data,0.16437076815316365,0.5,942
+deeplabv3_data25,DeepLabV3+ (25%),DeepLabV3+ Data,0.11896288764616167,0.5,942
+unet_scratch_region_tight,U-Net + Tight,U-Net Augmentation,0.018413597733711047,0.5,942
+unet_resnet50_bce_dice,U-Net (ResNet50),U-Net Pretraining,0.00492156259612427,0.5,942
+unet_scratch_region_context,U-Net + Context,U-Net Augmentation,0.00402067777139575,0.5,942
+unet_scratch_region_full,U-Net + Full,U-Net Augmentation,0.0006426735218508998,0.5,942
+unet_scratch_dice,U-Net (scratch) + Dice,U-Net Loss,0.0,0.5,942
+unet_scratch_bce_dice,U-Net (scratch) + BCE+Dice,U-Net Loss,0.0,0.5,942
+unet_scratch_bce,U-Net (scratch) + BCE,U-Net Loss,0.0,0.5,942

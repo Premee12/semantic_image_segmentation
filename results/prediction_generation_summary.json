@@ -1,0 +1,112 @@
+{
+  "total_models": 13,
+  "successful": 13,
+  "failed": 0,
+  "total_time_minutes": 14.9348810394605,
+  "results": [
+    {
+      "model": "unet_scratch_bce",
+      "description": "U-Net (scratch) + BCE",
+      "category": "U-Net Loss Functions",
+      "status": "SUCCESS",
+      "predictions": 1031,
+      "output_dir": "/home/abhishek/Downloads/s3/mldm/Deeplearning/predictions/unet_scratch_bce"
+    },
+    {
+      "model": "unet_scratch_dice",
+      "description": "U-Net (scratch) + Dice",
+      "category": "U-Net Loss Functions",
+      "status": "SUCCESS",
+      "predictions": 1031,
+      "output_dir": "/home/abhishek/Downloads/s3/mldm/Deeplearning/predictions/unet_scratch_dice"
+    },
+    {
+      "model": "unet_scratch_bce_dice",
+      "description": "U-Net (scratch) + BCE+Dice",
+      "category": "U-Net Loss Functions",
+      "status": "SUCCESS",
+      "predictions": 1031,
+      "output_dir": "/home/abhishek/Downloads/s3/mldm/Deeplearning/predictions/unet_scratch_bce_dice"
+    },
+    {
+      "model": "unet_resnet50_bce_dice",
+      "description": "U-Net (ResNet50) + BCE+Dice",
+      "category": "U-Net Pretraining",
+      "status": "SUCCESS",
+      "predictions": 1031,
+      "output_dir": "/home/abhishek/Downloads/s3/mldm/Deeplearning/predictions/unet_resnet50_bce_dice"
+    },
+    {
+      "model": "unet_scratch_region_full",
+      "description": "U-Net + Full Image",
+      "category": "U-Net Data Augmentation",
+      "status": "SUCCESS",
+      "predictions": 1031,
+      "output_dir": "/home/abhishek/Downloads/s3/mldm/Deeplearning/predictions/unet_scratch_region_full"
+    },
+    {
+      "model": "unet_scratch_region_context",
+      "description": "U-Net + Forged+Context",
+      "category": "U-Net Data Augmentation",
+      "status": "SUCCESS",
+      "predictions": 1031,
+      "output_dir": "/home/abhishek/Downloads/s3/mldm/Deeplearning/predictions/unet_scratch_region_context"
+    },
+    {
+      "model": "unet_scratch_region_tight",
+      "description": "U-Net + Forged Tight",
+      "category": "U-Net Data Augmentation",
+      "status": "SUCCESS",
+      "predictions": 1031,
+      "output_dir": "/home/abhishek/Downloads/s3/mldm/Deeplearning/predictions/unet_scratch_region_tight"
+    },
+    {
+      "model": "deeplabv3_resnet50",
+      "description": "DeepLabV3+ (ResNet-50)",
+      "category": "DeepLabV3+ Backbone",
+      "status": "SUCCESS",
+      "predictions": 1031,
+      "output_dir": "/home/abhishek/Downloads/s3/mldm/Deeplearning/predictions/deeplabv3_resnet50"
+    },
+    {
+      "model": "deeplabv3_resnet101",
+      "description": "DeepLabV3+ (ResNet-101)",
+      "category": "DeepLabV3+ Backbone",
+      "status": "SUCCESS",
+      "predictions": 1031,
+      "output_dir": "/home/abhishek/Downloads/s3/mldm/Deeplearning/predictions/deeplabv3_resnet101"
+    },
+    {
+      "model": "deeplabv3_data25",
+      "description": "DeepLabV3+ (25% data)",
+      "category": "DeepLabV3+ Data Efficiency",
+      "status": "SUCCESS",
+      "predictions": 1031,
+      "output_dir": "/home/abhishek/Downloads/s3/mldm/Deeplearning/predictions/deeplabv3_data25"
+    },
+    {
+      "model": "deeplabv3_data50",
+      "description": "DeepLabV3+ (50% data)",
+      "category": "DeepLabV3+ Data Efficiency",
+      "status": "SUCCESS",
+      "predictions": 1031,
+      "output_dir": "/home/abhishek/Downloads/s3/mldm/Deeplearning/predictions/deeplabv3_data50"
+    },
+    {
+      "model": "deeplabv3_data75",
+      "description": "DeepLabV3+ (75% data)",
+      "category": "DeepLabV3+ Data Efficiency",
+      "status": "SUCCESS",
+      "predictions": 1031,
+      "output_dir": "/home/abhishek/Downloads/s3/mldm/Deeplearning/predictions/deeplabv3_data75"
+    },
+    {
+      "model": "deeplabv3_data100",
+      "description": "DeepLabV3+ (100% data)",
+      "category": "DeepLabV3+ Data Efficiency",
+      "status": "SUCCESS",
+      "predictions": 1031,
+      "output_dir": "/home/abhishek/Downloads/s3/mldm/Deeplearning/predictions/deeplabv3_data100"
+    }
+  ]
+}
