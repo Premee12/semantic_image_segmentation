@@ -2,14 +2,14 @@
 
 This repository contains our implementation of semantic segmentation models (UNet and DeepLabV3+) for detecting image forgeries in scientific images. This project was developed as part of the MLDM Deep Learning course (January 2026).
 
-## 📊 Project Overview
+## Project Overview
 
 Image forgery detection is critical for maintaining scientific integrity. This project implements and compares two state-of-the-art semantic segmentation architectures for pixel-level forgery detection:
 
 - **UNet**: A classic encoder-decoder architecture with skip connections
 - **DeepLabV3+**: An advanced architecture with atrous spatial pyramid pooling (ASPP)
 
-## 🎯 Key Features
+## Key Features
 
 - **Multiple Model Architectures**: Implementation of UNet and DeepLabV3+ with various configurations
 - **Comprehensive Ablation Studies**: 
@@ -20,7 +20,7 @@ Image forgery detection is critical for maintaining scientific integrity. This p
 - **Advanced Metrics**: Implementation of Object-based F1 (oF1) score using Hungarian matching algorithm
 - **Automated Pipeline**: Complete scripts for training, prediction generation, and evaluation
 
-## 📦 Dataset
+## Dataset
 
 **Source**: [Kaggle - RecodAI Scientific Image Forgery Detection](https://www.kaggle.com/competitions/recodai-luc-scientific-image-forgery-detection)
 
@@ -67,7 +67,7 @@ Or install all at once:
 pip install tensorflow keras numpy opencv-python matplotlib scikit-learn pandas pillow scipy tqdm
 ```
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 semantic_image_segmentation/
@@ -102,7 +102,7 @@ semantic_image_segmentation/
     └── (trained models and logs stored here)
 ```
 
-## 🚀 How to Run
+## How to Run
 
 ### 1. Data Preparation
 
@@ -241,7 +241,7 @@ python generate_summary_figure.py
    - Context-aware regions improve detection accuracy
    - Tight regions may miss contextual information
 
-## 🔬 Evaluation Metrics
+## Evaluation Metrics
 
 ### Object-based F1 (oF1) Score
 
@@ -260,7 +260,7 @@ Advantages over pixel-wise metrics:
 
 For detailed implementation, see the [Hungarian Matching notebook](src/notebooks/oF1_Hungarian_Matching_Computation.ipynb).
 
-## 📝 What We Have Done
+## What We Have Done
 
 ### 1. Data Preparation & Analysis
 - Comprehensive EDA of the forgery dataset
@@ -303,7 +303,7 @@ For detailed implementation, see the [Hungarian Matching notebook](src/notebooks
 - Environment verification
 - Detailed documentation
 
-## 🤝 Team & Contribution
+## Team & Contribution
 
 This project was developed as part of the MLDM Deep Learning course, showcasing:
 - State-of-the-art deep learning architectures
@@ -312,18 +312,18 @@ This project was developed as part of the MLDM Deep Learning course, showcasing:
 - Production-ready code organization
 - Thorough documentation
 
-## 📚 References
+## References
 
 1. Ronneberger, O., Fischer, P., & Brox, T. (2015). U-Net: Convolutional Networks for Biomedical Image Segmentation. MICCAI.
 2. Chen, L. C., et al. (2018). Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation. ECCV.
 3. He, K., et al. (2016). Deep Residual Learning for Image Recognition. CVPR.
 4. Kuhn, H. W. (1955). The Hungarian Method for the Assignment Problem. Naval Research Logistics Quarterly.
 
-## 📧 Contact & Support
+## Contact & Support
 
 For questions or issues, please open an issue on GitHub or contact the project maintainers.
 
-## 📄 License
+## License
 
 This project is developed for academic purposes as part of the MLDM Deep Learning course (January 2026).
 
