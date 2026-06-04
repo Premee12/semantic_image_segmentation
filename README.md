@@ -206,16 +206,13 @@ python generate_summary_figure.py
 
 ## 📊 Experimental Results
 
-### Model Performance (oF1 Scores)
+### Model Performance Summary
 
-| Model | Backbone | Loss Function | Training Data | oF1 Score |
-|-------|----------|---------------|---------------|-----------|
-| DeepLabV3+ | ResNet101 | BCE+Dice | 100% | **0.XXX** |
-| DeepLabV3+ | ResNet50 | BCE+Dice | 100% | 0.XXX |
-| UNet | ResNet50 | BCE+Dice | 100% | 0.XXX |
-| UNet | Scratch | BCE+Dice | 100% | 0.XXX |
-| UNet | Scratch | Dice | 100% | 0.XXX |
-| UNet | Scratch | BCE | 100% | 0.XXX |
+| Model | Backbone | Loss Function | Dice Score |
+|-------|----------|---------------|---------------|
+| DeepLabV3+ | ResNet101 | BCE+Dice | 0.465 | 
+| DeepLabV3+ | ResNet50 | BCE+Dice | 0.446 |  
+| UNet | ResNet50 | Dice | 0.464 | 
 
 *Note: Exact scores available in `results/oF1_results/all_models_oF1_scores.csv`*
 
@@ -306,10 +303,8 @@ For detailed implementation, see the [Hungarian Matching notebook](src/notebooks
 ## Team & Contribution
 
 This project was developed as part of the MLDM Deep Learning course, showcasing:
-- State-of-the-art deep learning architectures
-- Rigorous experimental methodology
-- Comprehensive ablation studies
-- Production-ready code organization
+- State-of-the-art CNN based image segmentation architectures
+- Comprehensive ablation studies based on the architectures
 - Thorough documentation
 
 ## References
